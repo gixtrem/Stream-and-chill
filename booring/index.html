@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Streaming Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>🎧 Stream & Chill</h1>
+
+    <div class="music-player">
+        <img id="cover" src="" alt="Album Art">
+        <div class="song-title" id="song-title">Loading...</div>
+        <audio id="audio" controls></audio>
+
+        <canvas id="visualizer" width="300" height="100"></canvas>
+
+        <div class="controls">
+            <button onclick="prevSong()">⏮️ Prev</button>
+            <button onclick="playPause()">▶️ Play/Pause</button>
+            <button onclick="nextSong()">⏭️ Next</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

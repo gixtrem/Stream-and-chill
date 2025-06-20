@@ -1,0 +1,66 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #1f4037, #99f2c8);
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    margin: 0;
+}
+
+.music-player {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    width: 320px;
+    margin: 0 auto;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.music-player img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.song-title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.controls {
+    margin-top: 15px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f1c40f;
+    color: #222;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f39c12;
+}
+
+#visualizer {
+    display: block;
+    margin: 20px auto;
+    background-color: #111;
+    border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+    .music-player {
+        width: 90%;
+    }
+
+    button {
+        width: 90px;
+        margin: 5px auto;
+        display: block;
+    }
+}
