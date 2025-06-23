@@ -16,7 +16,7 @@ A responsive web-based music player that allows users to stream royalty-free aud
 
 ## Instructions for Build and Use
 
-### 🔧 Steps to Build or Run the Software
+###  Steps to Build or Run the Software
 1. Clone or download the project folder.
 2. Ensure the following files are in the same directory:
    - `index.html`
@@ -24,9 +24,9 @@ A responsive web-based music player that allows users to stream royalty-free aud
    - `script.js`
 3. Open `index.html` in your browser or run with Live Server.
 
-### ▶️ How to Use the Music Player
+### ▶ How to Use the Music Player
 1. Click **Play/Pause** to control audio playback.
-2. Use ⏮️ and ⏭️ buttons to navigate between songs.
+2. Use prev and nxt buttons to navigate between songs.
 3. The title and album cover update automatically for each song.
 
 ---
@@ -60,7 +60,4 @@ To recreate the environment used to develop this project:
 
 ---
 
-## Author
 
-👨‍💻 Built by Umah — CSE 310 Sprint Project  
-BYU–Idaho | Summer 2025
